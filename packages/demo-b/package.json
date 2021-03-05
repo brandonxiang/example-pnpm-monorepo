@@ -1,0 +1,26 @@
+{
+  "name": "demo-b",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "brandonxiang <1542453460@qq.com>",
+  "homepage": "https://github.com/brandonxiang/example-monorepo#readme",
+  "license": "ISC",
+  "main": "lib/demo-b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonxiang/example-monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandonxiang/example-monorepo/issues"
+  },
+  "dependencies": {
+    "demo-a": "^0.0.1"
+  }
+}
